@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.headshot {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+nav.links {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+nav a {
+  color: lightblue;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+table.zebra {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table.zebra tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+table.zebra tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+table.zebra td {
+  padding: 10px;
+  text-align: center;
+}
+
+.quote {
+  margin: 40px auto;
+  padding: 20px;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-left: 4px solid yellow;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
